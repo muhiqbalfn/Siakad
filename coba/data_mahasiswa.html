@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Data Mahasiswa</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/docs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+
+<body>
+<!--AWAL CONTENT-->
+<div class="container">
+	<div class="row">
+    	<h4>Program Studi</h4>
+        <p class="alert alert-info">Pilihan program studi di-generate berdasarkan NMPSTMSPST pada view vkls.</p>
+    	<select class="form-control">
+          <option>T. INFORMATIKA</option>
+          <option>M. INFORMATIKA</option>
+          <option>AKUNTANSI MANAJEMEN</option>
+          <option>ADMINISTRASI BISNIS</option>
+          <option>M. REKAYASA KONSTRUKSI</option>
+        </select>
+        <br />
+        <h4>Tahun Masuk</h4>
+        <p class="alert alert-info">Pilihan program studi di-generate berdasarkan TAHUNMSMHS pada view vkls.</p>
+    	<select class="form-control">
+          <option>2009</option>
+          <option>2010</option>
+          <option>2011</option>
+          <option>2012</option>
+        </select>
+        <br />
+        <h4>Data Mahasiswa</h4>
+        <p class="alert alert-info">Data Mahasiswa diambil berdasarkan view vkls. Data yang dimunculkan sesuai dengan filter.</p>
+    	<table class="table table-bordered table-striped">
+        	<thead>
+            	<tr>
+                	<th>No</th>
+                    <th>Tahun Kelas</th>
+                    <th>NIM</th>
+                    <th>Nama</th>
+                    <th>Tingkat</th>
+                    <th>Kelas Paralel</th>
+                    <th>Detail</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr>
+                	<td>1</td>
+                    <td>20101</td>
+                    <td>5106100039</td>
+                    <td>Pramana Yoga S</td>
+                    <td>4</td>
+                    <td>A</td>
+                    <td><button type="button" class="btn btn-primary">Lihat</button></td>
+                </tr>
+                <tr>
+                	<td>2</td>
+                    <td>20101</td>
+                    <td>5106100069</td>
+                    <td>Ardi Imawan</td>
+                    <td>4</td>
+                    <td>B</td>
+                    <td><button type="button" class="btn btn-primary">Lihat</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <button type="button" class="btn btn-primary">Import</button>
+    </div>
+</div>
+<!--AKHIR CONTENT-->
+</body>
+</html>

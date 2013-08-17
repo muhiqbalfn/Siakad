@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Biodata Mahasiswa</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/docs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+    	<h2>Detail Data Mahasiswa</h2>
+        <br />
+        <p class="alert alert-info">Data untuk Biodata diambilkan dari view biodata (vbiodata) </p>
+        <div class="tabbable"> 
+        	<ul class="nav nav-tabs">
+                <li class="active"><a href="#pane1" data-toggle="tab">Data Akademik Mahasiswa</a></li>
+                <li><a href="#pane2" data-toggle="tab">Biodata Mahasiswa</a></li>
+                <li><a href="#pane3" data-toggle="tab">Data Asal Sekolah</a></li>
+                <li><a href="#pane4" data-toggle="tab">Data Orang Tua/Wali</a></li>
+                <li><a href="#pane3" data-toggle="tab">Data Alamat</a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+        	<div id="pane1" class="tab-pane active">
+            <br />
+                <form>
+                    <fieldset>
+                        <legend>Data Akademik Mahasiswa</legend>
+                        <div class="form-group">
+                        	<label for="jurusan">Jurusan</label>
+                            <input type="text" class="form-control" id="jurusan">
+                            <label for="prodi">Program Studi</label>
+                            <input type="text" class="form-control" id="prodi">
+                            <label for="thnmsk">Tahun</label>
+                            <input type="text" class="form-control" id="thnmsk">
+                            <label for="nim_mhs">NIM</label>
+                            <input type="text" class="form-control" id="nim_mhs">
+                            <label for="nama_mhs">Nama</label>
+                            <input type="text" class="form-control" id="nama_mhs">
+                            <label for="ket_mhs">Keterangan Status</label>
+                            <input type="text" class="form-control" id="ket_mhs">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        	<div id="pane2" class="tab-pane">
+            <br />
+                <form>
+                    <fieldset>
+                        <legend>Biodata Mahasiswa</legend>
+                        <div class="form-group">
+                          <label for="tptlhr_mhs">Tempat Lahir</label>
+                          <input type="text" class="form-control" id="tptlhr_mhs">
+                          <label for="tgllhr_mhs">Tanggal Lahir</label>
+                          <input type="text" class="form-control" id="tgllhr_mhs">
+                          <label for="anakke_mhs">Anak ke-</label>
+                          <input type="text" class="form-control" id="anakke_mhs">
+                          <label for="jmlanak_mhs">Jumlah Anak</label>
+                          <input type="text" class="form-control" id="jmlanak_mhs">
+                          <label for="jk_mhs">Jenis Kelamin</label>
+                          <input type="text" class="form-control" id="jk_mhs">
+                          <label for="goldar_mhs">Golongan Darah</label>
+                          <input type="text" class="form-control" id="goldar_mhs">
+                          <label for="agama_mhs">Agama</label>
+                          <input type="text" class="form-control" id="agama_mhs">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="pane3" class="tab-pane">
+            <br />
+            	<form>
+                	<fieldset>
+                        <legend>Data Asal Sekolah</legend>
+                        <div class="form-group">
+                       	  <label for="sklhasal_mhs">Sekolah Asal</label>
+                          <input type="text" class="form-control" id="sklhasal_mhs">
+                          <label for="jurasal_mhs">Jurusan Asal</label>
+                          <input type="text" class="form-control" id="jurasal_mhs">
+                          <label for="nilaistl_mhs">Nilai STL</label>
+                          <input type="text" class="form-control" id="nilaistl_mhs">
+                          <label for="nilairstl_mhs">Nilai Rata-rata STL</label>
+                          <input type="text" class="form-control" id="nilairstl_mhs">
+                          <label for="jmlmp_mhs">Jumlah Mata Pelajaran</label>
+                          <input type="text" class="form-control" id="jmlmp_mhs">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+             <div id="pane4" class="tab-pane">
+             <br />
+            	<form>
+                	<fieldset>
+                        <legend>Data Orang Tua/Wali</legend>
+                        <div class="form-group">
+                          <label for="namaayah_mhs">Nama Ayah</label>
+                          <input type="text" class="form-control" id="namaayah_mhs">
+                          <label for="namaibu_mhs">Nama Ibu</label>
+                          <input type="text" class="form-control" id="namaibu_mhs">
+                          <label for="pendayah_mhs">Pendidikan Ayah</label>
+                          <input type="text" class="form-control" id="pendayah_mhs">
+                          <label for="pendibu_mhs">Pendidikan Ibu</label>
+                          <input type="text" class="form-control" id="pendibu_mhs">
+                          <label for="pkrjayah_mhs">Pekerjaan Ayah</label>
+                          <input type="text" class="form-control" id="pkrjayah_mhs">
+                          <label for="pkrjibu_mhs">Pekerjaan Ibu</label>
+                          <input type="text" class="form-control" id="pkrjibu_mhs">
+                          <label for="phslayah_mhs">Penghasilan Ayah</label>
+                          <input type="text" class="form-control" id="phslayah_mhs">
+                          <label for="phslibu_mhs">Penghasilan Ibu</label>
+                          <input type="text" class="form-control" id="phslibu_mhs">
+                        </div>
+                    </fieldset>
+                </form>
+            </div> 
+            <div id="pane5" class="tab-pane">
+            <br />
+            	<form>
+                	<fieldset>
+                        <legend>Alamat</legend>
+                        <div class="form-group">
+                          <label for="jln_mhs">Jalan</label>
+                          <input type="text" class="form-control" id="jln_mhs">
+                          <label for="rt_mhs">RT</label>
+                          <input type="text" class="form-control" id="rt_mhs">
+                          <label for="rw_mhs">RW</label>
+                          <input type="text" class="form-control" id="rw_mhs">
+                          <label for="desa_mhs">Desa</label>
+                          <input type="text" class="form-control" id="desa_mhs">
+                          <label for="kcmtn_mhs">Kecamatan</label>
+                          <input type="text" class="form-control" id="kcmtn_mhs">
+                          <label for="kota_mhs">Kota</label>
+                          <input type="text" class="form-control" id="kota_mhs">
+                          <label for="kodepos_mhs">Kodepos</label>
+                          <input type="text" class="form-control" id="kodepos_mhs">
+                          <label for="propinsi_mhs">Propinsi</label>
+                          <input type="text" class="form-control" id="propinsi_mhs">
+                          <label for="telp_mhs">Nomor Telepon</label>
+                          <input type="text" class="form-control" id="telp_mhs">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>      
+        </div>  
+    </div>
+</div>
+</body>
+</html>
